@@ -322,7 +322,7 @@ footer a {
     }
 
 }
-@media (max-width:411px) {
+@media (max-width:414px) {
     .textCat, .containerCat img {
         width: 350px;
     }
