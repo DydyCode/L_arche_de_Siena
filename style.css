@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size : 20px;
+}
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-bottom: solid 1px white;
+    align-items: center;
+}
+ul {
+    display: flex;
+    
+}
+li {
+    padding: 1rem;
+    color: white;
+}
+#titreNav span {
+    font-family: 'Style Script', 'sans-serif';
+    font-size: 28px;
+    color: white;
+}
+#titreNav {
+    position: absolute;
+    left: 0;
+}
+#containerNav {
+    display: flex;
+    align-items: center;
+}
+a {
+   text-decoration: none;
+}
+#container1 {
+    display: flex;
+}
+#container1 h1 {
+    font-family: 'Style Script', 'sans-serif';
+    position: absolute;
+    color: white;
+    left: 35%;
+    margin-top: 2rem;
+    font-size: 65px;
+}
+#container1 img {
+    width: 100%;
+    height: 100%;
+}
+#container2 {
+    height: 270px;
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#container2 p {
+    margin: auto;
+    color: white;
+}
+#container2 a {
+    margin: auto;
+}
+.btnInfo{
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+    color: rgb(196, 195, 195)!important;
+}
+.card {
+    width: 300px;
+    background-color:black;
+    height: 500px;
+    color: rgb(236, 236, 236);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: grey;
+    font-family: 'Roboto';
+    margin-bottom: 1rem;
+
+}
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+.nameCard {
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+#container3 {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+footer i {
+    padding: 1rem;
+    font-size: 25px;
+}
+footer a {
+    color: white ;
+}
+
+
+/***** Responsive *****/
+
+@media (max-width:411px) {
+    body {
+        font-size: 13px;
+    }
+    #titreNav span {
+        font-size: 15px;
+    }
+    #container1 h1 {
+        font-size: 25px;
+    }
+    ul {
+        margin-left: 4rem;
+
+    }
+    .card {
+        height: 460px;
+    }
+
+}
