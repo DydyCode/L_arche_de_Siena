@@ -249,7 +249,6 @@ footer a {
     text-align: center;
     width: 900px;
     background-color: grey;
-    height: 500px;
     margin: auto;
     border-radius: 10px;
     color: ghostwhite;
@@ -380,7 +379,11 @@ footer a {
 #myBtn {
     width: 300px;
     margin: auto;
+    font-size: 18px;
 }
 .textModal {
     color: black!important;
+}
+.symbolIndex {
+    font-size: 25px;
 }
