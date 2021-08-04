@@ -121,7 +121,7 @@ footer a {
 
 /***** Responsive *****/
 
-@media (max-width:411px) {
+@media (max-width:590px) {
     body {
         font-size: 13px;
     }
