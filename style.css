@@ -317,11 +317,9 @@ footer a {
 
     }
     .card {
-        height: 460px;
+        height: 470px;
     }
-    .textCat {
-        height: 430px;
-    }
+
 
 }
 @media (max-width:414px) {
