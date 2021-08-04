@@ -296,9 +296,6 @@ footer a {
     nav {
         display: none;
     }
-    .textCat, .containerCat img {
-        width: 700px;
-    }
 }
 @media (max-width:590px) {
     body {
