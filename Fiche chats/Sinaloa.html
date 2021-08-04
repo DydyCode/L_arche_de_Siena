@@ -53,7 +53,7 @@
             </a>
             <a href="#">
                 <li>
-                    Contactez-nous
+                    Nous contactez
                 </li>
             </a>
         </ul>
@@ -72,7 +72,26 @@
                 Je suis déjà déparasitée.
                 A bientôt.
             </p>
-            <a class="btnInfo" href="#">Voir les conditions d'adoption</a><br><br>
+            <!-- Trigger/Open The Modal -->
+        <button id="myBtn" class="btnInfo">Voir les conditions d'adoption</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p class="textModal">
+                    Pour réserver un chat/chaton vous devez télécharger et remplir <a href="https://docs.google.com/document/d/1T2Ck-8w-Pku36uK4eKEfu97UfY9NrFJVWKxANTqFF4E/edit?usp=sharing">ce document</a><br><br>
+                    Puis nous l'envoyez par mail.<br><br>
+                    Une adoption doit être une décision mûrement réfléchie vous devrez prendre soin de l'animal toute sa vie,
+                    en veillant à la bonne santé de celui-ci.<br>
+                    En lui octroyant les soins nécessaires quels qu'ils soient.<br>
+                    Et respectez ses besoins primaires, et secondaires.
+                </p>
+            </div>
+
+        </div><br><br>
             <p>
                 <span class="bold fontStyle">Sinaloa</span> vous a tapé dans l'oeil ?<br>
                 Contactez-nous pour la réservée<br><br>
@@ -103,6 +122,8 @@
             </p>
         </div>
     </footer>
+
+    <script src="../index.js"></script>
 </body>
 
 </html>
