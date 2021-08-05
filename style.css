@@ -247,7 +247,7 @@ footer a {
 }
 .textCat {
     text-align: center;
-    width: 900px;
+    width: 700px;
     background-color: grey;
     margin: auto;
     border-radius: 10px;
@@ -296,10 +296,14 @@ footer a {
         display: none;
     }
     .line {
-        width: 100px;
+        width: 60px;
     }
     #titleContainer3 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+    #myBtn {
+        width: 200px!important;
+        font-size: 13px!important;
     }
 }
 @media (max-width:590px) {
@@ -319,8 +323,6 @@ footer a {
     .card {
         height: 470px;
     }
-
-
 }
 @media (max-width:414px) {
     .textCat, .containerCat img {
