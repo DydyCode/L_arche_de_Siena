@@ -398,3 +398,7 @@ footer a {
 .symbolIndex {
     font-size: 25px;
 }
+.fa-heart {
+    color: rgb(247, 81, 81);
+    font-size: 16px;
+}
