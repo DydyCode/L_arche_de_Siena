@@ -165,6 +165,12 @@ a {
     width: 100%;
     height: 100%;
 }
+#containerActu {
+    background-color: rgb(200, 200, 200);
+}
+#containerActu p{
+    color: white;
+}
 #container2 {
     height: 270px;
     background-color: grey;
@@ -198,6 +204,11 @@ a {
     margin-bottom: 1rem;
     box-shadow: 5px -1px 15px -4px rgba(0,0,0,0.75);
 }
+.resize {
+    height: 400px !important;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .card:hover, .btnInfo:hover {
     box-shadow: 5px -1px 15px -4px rgba(105, 105, 105, 0.75);
     transform: scale(1.02);
@@ -207,9 +218,9 @@ a {
 }
 .nameCard {
     padding-bottom: 1rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
-#titleContainer3{
+#titleContainer4{
     font-size: 40px;
     font-family: 'Style Script';
     text-align: center;
@@ -221,12 +232,12 @@ a {
     display: block;
     margin: auto;
 }
-#containerTitleContainer3 {
+#containerTitleContainer4 {
     margin-top: 1rem;
     display: flex;
 }
 
-#container3 {
+#container4 {
     padding: 1rem;
     display: flex;
     justify-content: space-around;
@@ -237,7 +248,6 @@ footer {
     flex-direction: column;
     background-color: black;
     color: white;
-    height: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -348,7 +358,22 @@ footer a {
     .textCat {
         margin-top: 1rem;
     }
+    #containerActus {
+        flex-direction: column;
+        align-items: center;
+    }
+    .actu {
+        width: 97%;
+        height: 200px;
+    }
 }
+@media (min-width:1024px) {
+    .actu {
+        width: 400px;
+        height: 250px;
+    }
+}
+
 
 /* The Modal (background) */
 .modal {
@@ -388,7 +413,7 @@ footer a {
     cursor: pointer;
   }
 
-#myBtn {
+#myBtn, #mybtn2 {
     width: 300px;
     margin: auto;
     font-size: 18px;
@@ -402,4 +427,77 @@ footer a {
 .fa-heart {
     color: rgb(247, 81, 81);
     font-size: 16px;
+}
+#containerActus {
+    display: flex;
+    justify-content: center;
+}
+.actu {
+    text-align: center;
+    margin: 1rem;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+}
+.textActu {
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    background-color: grey;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    color: ghostwhite;
+    box-shadow: 5px -1px 15px -4px rgb(0 0 0 / 75%);
+}
+.textActu h1 {
+    margin-bottom: 2rem;
+    font-family: 'Style Script';
+}
+
+#containerPageActu {
+    display: flex;
+}
+.actu h2 {
+    margin-bottom: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.actu p {
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+.actu a {
+    color: white;
+}
+.black {
+    color: black!important;
+}
+.btn {
+    padding: 5px;
+    background-color: rgb(66, 66, 170);
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.btn:hover {
+    background-color: rgb(119, 119, 190);
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#copyright {
+    display: flex;
+    flex-direction: column;
+}
+.coded a:hover {
+    cursor: pointer;
+}
+.coded {
+    align-self: center;
+    font-size: 17px;
+    color: grey;
+    position: absolute;
+    right: 4px;
 }
