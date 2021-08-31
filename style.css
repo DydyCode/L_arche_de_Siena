@@ -504,3 +504,8 @@ footer a {
 .seeMore {
     color: black;
 }
+.seeMoreP {
+    margin-bottom: 2rem;
+    text-align: end;
+    padding-right: 5rem;
+}
