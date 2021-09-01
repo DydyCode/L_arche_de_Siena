@@ -338,10 +338,6 @@ footer a {
         width: 200px!important;
         font-size: 15px!important;
     }
-    .imageCat {
-        margin: auto;
-        margin-top: 4rem!important;
-    }
 }
 @media (max-width:590px) {
     body {
@@ -368,6 +364,9 @@ footer a {
     #container2 {
         height: 170px;
     }
+    .imageCat {
+        margin: auto;
+    }
 }
 @media (max-width:1024px) {
     .containerCat{
@@ -383,6 +382,9 @@ footer a {
     .actu {
         width: 97%;
         height: 170px;
+    }
+    .imageCat {
+        margin-top: 4rem!important;
     }
 }
 @media (min-width:768px) {
