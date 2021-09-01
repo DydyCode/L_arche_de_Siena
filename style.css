@@ -177,7 +177,7 @@ a {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin: 3px 3px 3px 3px;
     border-radius: 10px;
 }
 #container2 p {
@@ -361,7 +361,7 @@ footer a {
         width: 350px;
     }
     #container2 {
-        height: 150px;
+        height: 170px;
     }
 }
 @media (max-width:1024px) {
