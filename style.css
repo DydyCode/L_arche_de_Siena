@@ -343,6 +343,9 @@ footer a {
     body {
         font-size: 15px;
     }
+    .coded {
+        font-size: 15px!important;
+    }
     #titreNav span {
         font-size: 17px;
     }
@@ -517,8 +520,6 @@ footer a {
     align-self: center;
     font-size: 17px;
     color: grey;
-    position: absolute;
-    right: 4px;
 }
 .seeMore {
     text-align: end;
