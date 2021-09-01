@@ -335,18 +335,18 @@ footer a {
     }
     #myBtn {
         width: 200px!important;
-        font-size: 13px!important;
+        font-size: 15px!important;
     }
 }
 @media (max-width:590px) {
     body {
-        font-size: 13px;
-    }
-    #titreNav span {
         font-size: 15px;
     }
+    #titreNav span {
+        font-size: 17px;
+    }
     #container1 h1 {
-        font-size: 25px;
+        font-size: 27px;
     }
     ul {
         margin-left: 4rem;
