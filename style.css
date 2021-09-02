@@ -387,9 +387,6 @@ footer a {
         width: 97%;
         height: 200px;
     }
-    .imageCat {
-        margin-top: 4rem!important;
-    }
 }
 @media (min-width:768px) {
     .actu {
