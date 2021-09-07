@@ -371,6 +371,9 @@ footer a {
     #container2 {
         height: 200px;
     }
+    .nameCard {
+        padding-bottom: 0;
+    }
 }
 @media (max-width:1024px) {
     .containerCat{
