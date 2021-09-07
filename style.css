@@ -553,3 +553,6 @@ footer a {
 .imageCat {
     margin: auto;
 }
+.descriptionCat a {
+    color: black;
+}
