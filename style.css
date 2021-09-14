@@ -559,3 +559,6 @@ footer a {
 .descriptionCat a {
     color: black;
 }
+.white {
+    color: white!important;
+}
