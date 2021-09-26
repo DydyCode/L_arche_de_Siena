@@ -363,6 +363,9 @@ footer a {
     .card {
         height: 480px;
     }
+    .reserved {
+        font-size: 16px!important;
+    }
 }
 @media (max-width:414px) {
     .textCat, .containerCat img {
@@ -539,7 +542,7 @@ footer a {
 .reserved {
     background-color: rgb(214 81 81);
     font-family: 'Quicksand'!important;
-    font-size: 20px!important;
+    font-size: 20px;
     padding: 5px;
     border-radius: 3px;
 }
