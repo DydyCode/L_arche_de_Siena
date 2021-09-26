@@ -195,6 +195,7 @@ a {
     box-shadow: 5px -1px 15px -4px rgba(0,0,0,0.75);
 }
 .card {
+    animation: appear 2s ;
     position: relative;
     width: 300px;
     height: 520px;
@@ -579,8 +580,29 @@ footer a {
     background-color: rgb(59, 59, 59);
 }
 .popup {
+    animation: popup 3s infinite;
     position: absolute;
     position: absolute;
     top: 15px;
     right: 10px;
+}
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    } 
+}
+@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: scale(60%);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(100%);
+    }
 }
