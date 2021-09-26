@@ -195,6 +195,7 @@ a {
     box-shadow: 5px -1px 15px -4px rgba(0,0,0,0.75);
 }
 .card {
+    position: relative;
     width: 300px;
     height: 520px;
     background-color: black;
@@ -536,9 +537,11 @@ footer a {
     text-align: end;
 }
 .reserved {
-    color: rgb(179, 45, 45);
+    background-color: rgb(214 81 81);
     font-family: 'Quicksand'!important;
     font-size: 20px!important;
+    padding: 5px;
+    border-radius: 3px;
 }
 .size {
     font-size: 22px;
@@ -560,4 +563,21 @@ footer a {
 }
 .white {
     color: white!important;
+}
+#form {
+    display: block;
+    margin: auto;
+}
+.btnresa {
+    background-color: black;
+    padding: 7px;
+}
+.btnresa:hover {
+    background-color: rgb(59, 59, 59);
+}
+.popup {
+    position: absolute;
+    position: absolute;
+    top: 15px;
+    right: 10px;
 }
