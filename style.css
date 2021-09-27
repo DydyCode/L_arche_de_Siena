@@ -501,6 +501,7 @@ footer a {
     color: black!important;
 }
 .btn {
+    margin-left: 1rem;
     padding: 5px;
     background-color: rgb(66, 66, 170);
     border: none;
@@ -606,3 +607,4 @@ footer a {
         transform: scale(100%);
     }
 }
+
