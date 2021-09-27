@@ -33,6 +33,10 @@ li {
     font-family: 'Style Script';
     font-size: 28px;
 }
+.link {
+    color: rgb(75, 75, 156)!important;
+    font-weight: bold;
+}
 /***** Menu Toogle *****/
 
 #menu__toggle {
@@ -460,7 +464,6 @@ footer a {
     justify-content: center;
 }
 .actu {
-    min-width: 450px;
     text-align: center;
     margin: 1rem;
     background-color: rgb(226, 226, 226);
