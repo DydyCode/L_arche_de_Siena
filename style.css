@@ -445,7 +445,7 @@ footer a {
   }
 
 #myBtn, #mybtn2 {
-    width: 300px;
+    width: 260px;
     margin: auto;
     font-size: 18px;
 }
@@ -464,6 +464,7 @@ footer a {
     justify-content: center;
 }
 .actu {
+    height: 320px;
     text-align: center;
     margin: 1rem;
     background-color: rgb(226, 226, 226);
@@ -610,4 +611,8 @@ footer a {
         transform: scale(100%);
     }
 }
-
+.reseauxActu {
+    color: black!important;
+    font-size: 28px!important;
+    margin-right: 15px;
+}
