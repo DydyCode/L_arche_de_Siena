@@ -585,7 +585,7 @@ footer a {
     background-color: rgb(59, 59, 59);
 }
 .popup {
-    animation: popup 3s infinite;
+    animation: popup 5s infinite;
     position: absolute;
     position: absolute;
     top: 15px;
@@ -604,11 +604,15 @@ footer a {
 @keyframes popup {
     0% {
         opacity: 0;
-        transform: scale(60%);
+        /* transform: scale(60%); */
+        width: 0px;
+    }
+    70%{
+        opacity: 1;
     }
     100% {
-        opacity: 1;
-        transform: scale(100%);
+        /* transform: scale(100%); */
+        width: 270px;
     }
 }
 .reseauxActu {
