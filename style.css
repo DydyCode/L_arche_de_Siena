@@ -373,8 +373,8 @@ footer a {
     }
 }
 @media (max-width:414px) {
-    .textCat, .containerCat img {
-        width: 350px;
+    .textCat, .containerCat img, .v2 img {
+        width: 350px!important;
     }
     #container2 {
         height: 200px;
@@ -533,8 +533,9 @@ footer a {
     color: grey;
 }
 .seeMore {
-    text-align: end;
     margin-right: 3rem;
+    display: flex;
+    justify-content: space-between;
 }
 .seeMoreP {
     margin-bottom: 2rem;
@@ -619,4 +620,11 @@ footer a {
     color: black!important;
     font-size: 28px!important;
     margin-right: 15px;
+}
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+.v2 img {
+    width: 700px;
 }
