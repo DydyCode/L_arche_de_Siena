@@ -628,3 +628,7 @@ footer a {
 .v2 img {
     width: 700px;
 }
+.enSavoirPlus {
+    text-align: end;
+    margin-right: 3rem;
+}
