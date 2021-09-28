@@ -323,6 +323,13 @@ footer a {
 .contact {
     color: black;
 }
+.actuReseaux {
+    min-width: 315px;
+    text-align: center;
+    margin: 1rem;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+}
 /***** Responsive *****/
 
 @media (max-width:768px) {
@@ -347,10 +354,17 @@ footer a {
     .dateOfAdoption {
         font-size: 7px;
     }
+    #containerConditions {
+        margin: 10px!important;
+        padding: 20px!important;
+    }
 }
 @media (max-width:590px) {
     body {
         font-size: 16px;
+    }
+    .reseauxActu {
+        font-size: 28px!important;
     }
     .coded {
         font-size: 15px!important;
@@ -394,15 +408,10 @@ footer a {
         flex-direction: column;
         align-items: center;
     }
-    .actu {
-        width: 97%;
-        height: 200px;
-    }
+    
 }
 @media (min-width:768px) {
-    .actu {
-        height: 250px;
-    }
+    
 }
 
 
@@ -464,7 +473,7 @@ footer a {
     justify-content: center;
 }
 .actu {
-    height: 320px;
+    min-width: 315px;
     text-align: center;
     margin: 1rem;
     background-color: rgb(226, 226, 226);
@@ -490,12 +499,11 @@ footer a {
 #containerPageActu {
     display: flex;
 }
-.actu h2 {
+.actu h2 , .actuReseaux h2{
     margin-bottom: 1rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .actu p {
-    margin-bottom: 1rem;
     padding: 5px;
 }
 .actu a {
@@ -505,6 +513,8 @@ footer a {
     color: black!important;
 }
 .btn {
+    display: inline-block;
+    margin-bottom: 1rem;
     margin-left: 1rem;
     padding: 5px;
     background-color: rgb(66, 66, 170);
@@ -578,13 +588,8 @@ footer a {
     display: block;
     margin: auto;
 }
-.btnresa {
-    background-color: black;
-    padding: 7px;
-}
-.btnresa:hover {
-    background-color: rgb(59, 59, 59);
-}
+
+
 .popup {
     animation: popup 5s infinite;
     position: absolute;
@@ -617,9 +622,11 @@ footer a {
     }
 }
 .reseauxActu {
-    color: black!important;
-    font-size: 28px!important;
+    color: rgb(66, 66, 170);
+    font-size: 35px;
     margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .hidden {
     opacity: 0;
@@ -631,4 +638,25 @@ footer a {
 .enSavoirPlus {
     text-align: end;
     margin-right: 3rem;
+}
+#containerConditions {
+    margin: 40px;
+    text-align: center;
+    background-color: grey;
+    padding: 50px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.white {
+    color: white;
+}
+#btn {
+    background-color: rgb(66, 66, 170);    
+    padding: 7px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+#btn:hover {
+    background-color: rgb(43, 43, 141);
+    cursor: pointer;
 }
