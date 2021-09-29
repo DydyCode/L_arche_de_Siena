@@ -276,7 +276,7 @@ footer a {
 
 /***** Cat *****/
 
-.containerCat img {
+.containerCat img, .containerCatV2 img{
     width: 500px;
     margin: auto;
     border-radius: 10px;
@@ -302,7 +302,7 @@ footer a {
     margin-bottom: 1rem;
     overflow-wrap: break-word;
 }
-.containerCat {
+.containerCat, .containerCatV2 {
     margin-top: 3rem;
     display: flex;
     align-items: center;
@@ -384,9 +384,15 @@ footer a {
     .reserved {
         font-size: 16px!important;
     }
+    .containerCatV2 img {
+        width: 210px;
+    }
+    .containerIMG img {
+        width: 97px;
+    }
 }
 @media (max-width:414px) {
-    .textCat, .containerCat img, .v2 img {
+    .textCat, .containerCat img {
         width: 350px!important;
     }
     #container2 {
@@ -709,6 +715,7 @@ section {
 .containerAllImg {
     display:flex;
     flex-direction: row-reverse;
+    margin: auto;
 }
 @media(min-width:1025px) {
     .containerAllImg {
@@ -717,6 +724,9 @@ section {
 }
 @media(min-width:1200px) {
     .containerAllImg {
-        margin-left: 1rem;
+       margin:auto;
     }
+}
+.infosAdoption {
+    font-style: italic;
 }
