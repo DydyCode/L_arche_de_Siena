@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a2454d2561.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Lightbox/lightbox.min.css">
+    <script src="../Lightbox/lightbox-plus-jquery.min.js"></script>
     <title>Saly</title>
 </head>
 
@@ -70,10 +72,22 @@
     </nav>
     <!-- Container -->
     <div class="containerCat">
-        <img class="imageCat" src="../images/Chats_a_l'adoption/Saly.jpeg" alt="photo de Saly">
-        <div class="textCat">
+        <div class="containerAllImg">
+            <a class="containerImgMain" href="../images/Chats_a_l'adoption/Saly.jpeg" data-lightbox="galerie" data-title="Saly - L'arche de Siena">
+                <img class="imageCat" src="../images/Chats_a_l'adoption/Saly.jpeg" alt="photo de Saly">
+            </a>
+            <!-- <div class="containerImgNoMain">
+                <a class="containerIMG" href="../images/Chats_a_l'adoption/Hope.jpeg" data-lightbox="galerie" data-title="Freya - L'arche de Siena">
+                    <img class="imageCat imgMain" src="../images/Chats_a_l'adoption/Hope.jpeg" alt="photo de Freya">
+                </a>
+                <a class="containerIMG" href="../images/Chats_a_l'adoption/Kuro.jpeg" data-lightbox="galerie" data-title="Freya - L'arche de Siena">
+                    <img class="imageCat imgMain" src="../images/Chats_a_l'adoption/Kuro.jpeg" alt="photo de Freya">
+                </a>
+            </div> -->
+        </div>
+            <div class="textCat">
             <p class="catName bold">Saly <i class="fas fa-venus femaleSymbol symbol"></i></p>
-            <!-- <span class="reserved">RESERVÉ</span> -->
+            <span class="reserved">RESERVÉE</span>
             <p class="catage"><span class="bold">Née le 27.08.2021</span></p>
             <p class="descriptionCat">
                 Je suis joueuse aventurière et câline.<br>
@@ -82,12 +96,13 @@
                 Je serais stérilisée, pucée, primo vaccinée et deparasitée. <br>
                 À bientôt.
             </p>
-            <p>
+            <!-- <p>
                 <span class="bold fontStyle">Saly</span> vous a tapée dans l'oeil ?<br><br>
                 <a class="btn btnresa" href="../Conditions.html">
                     Lire les conditions d'adoption
                 </a>
-            </p><br>
+            </p> -->
+            <br>
             
         </div>
     </div>
@@ -115,6 +130,7 @@
         </div>
     </footer>
     <script src="../index.js"></script>
+    <script src="../Lightbox/lightbox.js"></script>
 </body>
 
 </html>

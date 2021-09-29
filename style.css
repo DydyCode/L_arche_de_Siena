@@ -199,7 +199,6 @@ a {
     box-shadow: 5px -1px 15px -4px rgba(0,0,0,0.75);
 }
 .card {
-    animation: appear 2s;
     position: relative;
     width: 300px;
     height: 520px;
@@ -597,26 +596,6 @@ footer a {
     top: 15px;
     right: 10px;
 }
-@keyframes appear {
-    0% {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    } 
-}
-@keyframes appear2 {
-    0% {
-        opacity: 0;
-        transform: translateX(100px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    } 
-}
 @keyframes popup {
     0% {
         opacity: 0;
@@ -721,6 +700,23 @@ section {
     opacity: 0.3;
     top: 0;
 }
-.anim-cards{
-    animation: appear2 2s ;
+.containerIMG img {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.containerAllImg {
+    display:flex;
+    flex-direction: row-reverse;
+}
+@media(min-width:1025px) {
+    .containerAllImg {
+        margin: auto;
+    }
+}
+@media(min-width:1200px) {
+    .containerAllImg {
+        margin-left: 1rem;
+    }
 }

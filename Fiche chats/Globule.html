@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a2454d2561.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Lightbox/lightbox.min.css">
+    <script src="../Lightbox/lightbox-plus-jquery.min.js"></script>
     <title>Globule</title>
 </head>
 
@@ -70,13 +72,25 @@
     </nav>
     <!-- Container -->
     <div class="containerCat">
-        <img class="imageCat" src="../images/Chats_a_l'adoption/Globule.jpeg" alt="photo de Globule">
+        <div class="containerAllImg">
+            <a class="containerImgMain" href="../images/Chats_a_l'adoption/Globule.jpeg" data-lightbox="galerie" data-title="Globule - L'arche de Siena">
+                <img class="imageCat" src="../images/Chats_a_l'adoption/Globule.jpeg" alt="photo de Globule">
+            </a>
+            <!-- <div class="containerImgNoMain">
+                <a class="containerIMG" href="../images/Chats_a_l'adoption/Hope.jpeg" data-lightbox="galerie" data-title="Freya - L'arche de Siena">
+                    <img class="imageCat imgMain" src="../images/Chats_a_l'adoption/Hope.jpeg" alt="photo de Freya">
+                </a>
+                <a class="containerIMG" href="../images/Chats_a_l'adoption/Kuro.jpeg" data-lightbox="galerie" data-title="Freya - L'arche de Siena">
+                    <img class="imageCat imgMain" src="../images/Chats_a_l'adoption/Kuro.jpeg" alt="photo de Freya">
+                </a>
+            </div> -->
+        </div>
         <div class="textCat">
             <p class="catName bold">Globule <i class="fas fa-venus femaleSymbol symbol"></i></p>
             <span class="reserved">RESERVÉ</span>
             <p class="catage"><span class="bold">2 mois</span></p>
             <p class="descriptionCat">
-                Je m’appelle Globule, issus du sauvetage du <a class="aSave" href="../Articles actu/Sauvetage du 31.08.21.html">31.08.21</a> avec mes frères, sœurs et maman. <br>
+                Je m’appelle Globule, issus du sauvetage du 31.08.21 avec mes frères, sœurs et maman. <br>
                 Comme vous pouvez le voir j’accepte bien l’humain. <br>
                 Je bouge un peu mais pas par peur, je pense que je n'aime simplement pas être portée. <br>
                 Les câlins j’accepte sans problème. <br>
@@ -117,6 +131,7 @@
         </div>
     </footer>
     <script src="../index.js"></script>
+    <script src="../Lightbox/lightbox.js"></script>
 </body>
 
 </html>
