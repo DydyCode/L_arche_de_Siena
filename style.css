@@ -521,7 +521,7 @@ footer a {
     display: inline-block;
     margin-bottom: 1rem;
     margin-left: 1rem;
-    padding: 5px;
+    padding: 15px;
     background-color: rgb(66, 66, 170);
     border: none;
     color: white;
@@ -647,7 +647,7 @@ footer a {
 }
 #btn {
     background-color: rgb(66, 66, 170);    
-    padding: 7px;
+    padding: 15px;
     display: inline-block;
     margin-bottom: 15px;
 }
