@@ -2,6 +2,7 @@
 let checkbox = document.getElementById('checkbox');
 let btn = document.getElementById('btn');
 
+
 btn.addEventListener('click', () => {
     var decider = document.getElementById('switch');
     if (decider.checked) {

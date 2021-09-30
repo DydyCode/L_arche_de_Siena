@@ -16,7 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a2454d2561.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
-    <title>Shelby</title>
+    <link rel="stylesheet" href="../Lightbox/lightbox.min.css">
+    <script src="../Lightbox/lightbox-plus-jquery.min.js"></script>
+    <title>Hiro</title>
 </head>
 
 <body>
@@ -63,26 +65,43 @@
         </div>
     </nav>
     <!-- Container -->
-    <div class="containerCat">
-        <img class="imageCat" src="../images/Chats_a_l'adoption/Shelby.jpeg" alt="photo de Shelby">
-        <div class="textCat">
-            <p class="catName bold">Shelby <i class="fas fa-mars maleSymbol symbol"></i></p>
+    <div class="containerCatV2">
+         <div class="containerAllImg">
+            <a class="containerImgMain" href="../images/Chiens_a_l'adoption/Hiro (main).JPG" data-lightbox="galerie" data-title="Hiro - L'arche de Siena">
+                <img class="imageCat" src="../images/Chiens_a_l'adoption/Hiro (main).JPG" alt="photo de Hero">
+            </a>
+            <div class="containerImgNoMain">
+                <a class="containerIMG" href="../images/Chiens_a_l'adoption/Hiro .JPG" data-lightbox="galerie" data-title="Hiro - L'arche de Siena">
+                    <img class="imageCat imgMain" src="../images/Chiens_a_l'adoption/Hiro .JPG" alt="photo de Hiro">
+                </a>
+                <a class="containerIMG" href="../images/Chiens_a_l'adoption/Hiro(1).JPG" data-lightbox="galerie" data-title="Hiro - L'arche de Siena">
+                    <img class="imageCat imgMain" src="../images/Chiens_a_l'adoption/Hiro(1).JPG" alt="photo de Hiro">
+                </a>
+                <!-- <a class="containerIMG" href="../images/Chiens_a_l'adoption/Skoll (3).jpg" data-lightbox="galerie" data-title="Skoll - L'arche de Siena">
+                    <img class="imageCat imgMain" src="../images/Chiens_a_l'adoption/Skoll (3).jpg" alt="photo de Skoll">
+                </a> -->
+            </div>
+        </div>
+        <div class="textCat textDog" >
+            <p class="catName bold">Hero <i class="fas fa-mars maleSymbol symbol"></i></p>
             <!-- <span class="reserved">RESERVÉ</span> -->
-            <p class="catage">
-                <span class="bold">Née le 25.07.2021</span>
-            </p>
+            <!-- <p class="catage"><span class="bold">Née le 08.08.21</span></p> -->
             <p class="descriptionCat">
-                Je suis un foufou joueur et très câlin.<br>
-                Une séance de lancer de baballe, entre deux calinou j’serai le plus heureux!<br> 
-                Je serais castré, primo vacciné, pucé et déjà déparasité.<br>                
-                A bientôt.
+                Je suis joueur, câlin et foufou. <br>
+                J'aurais besoin de cours d'éducation car j'ai du mal avec l'auto contrôle. (La gestion des émotions et de la frustration)<br>
+                Ses cours d'éducation sont acutellement pris en charge par l'association, un suivi sera effectué par l'association auprès des adoptants.<br>
+                Je suis habitué aux chats (Si ils sont habitués aux chiens car je suis joueur).<br>
+                Je suis stérilisé, pucé, vacciné. <br>
+                À bientôt.
             </p>
             <p>
-                <span class="bold fontStyle">Shelby</span> vous a tapé dans l'oeil ?<br><br>
-                <a class="btn btnresa" href="../Conditions.html">
-                    Lire les conditions d'adoption
-                </a>   
-            </p><br>
+                <span class="bold fontStyle">Hiro</span> vous a tapée dans l'oeil ?<br><br>
+                    <a class="btn btnresa" href="../Conditions.html">
+                        Lire les conditions d'adoption
+                    </a>
+            </p>
+            <br>
+            
         </div>
     </div>
     <div></div>
@@ -109,6 +128,7 @@
         </div>
     </footer>
     <script src="../index.js"></script>
+    <script src="../Lightbox/lightbox.js"></script>
 </body>
 
 </html>

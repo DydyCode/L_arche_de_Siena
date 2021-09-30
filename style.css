@@ -282,6 +282,10 @@ footer a {
     border-radius: 10px;
     box-shadow: 5px -1px 15px -4px rgba(0,0,0,0.75);
 }
+.textDog {
+    background-color: rgb(229, 226, 226)!important;
+    color: black!important;
+}
 .textCat {
     text-align: center;
     width: 700px;
@@ -608,8 +612,8 @@ footer a {
         /* transform: scale(60%); */
         width: 0px;
     }
-    70%{
-        opacity: 1;
+    7%{
+        opacity: 0;
     }
     100% {
         /* transform: scale(100%); */
@@ -729,4 +733,8 @@ section {
 }
 .infosAdoption {
     font-style: italic;
+}
+.cardDog{
+    background-color: rgb(229, 226, 226)!important;
+    color: black!important;
 }
