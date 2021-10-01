@@ -70,5 +70,22 @@
         "logoSexe": "fa-mars",
         "id": 5
       }
+    ],
+    "dogs": [
+      {
+        "name": "Skoll",
+        "statut": "Réservé",
+        "age": "08.08.2021",
+        "description": "Moi c’est Skoll, x cane corso, on m’a séparé de maman quand j’avais à peine un mois les gens qui m’ont récupéré se sont séparé de moi parce que oui un chiot c’est des responsabilités et beaucoup d’investissement vu mon âge… Enfin bon j’suis arrivé dans une super famille d’accueil qui prend soin de moi. Je serais pucé, primo vacciné, déparasité. A bientôt..",
+        "image": "/images/Chiens_a_l'adoption/Skoll.jpg",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "sexe": "Mâle",
+        "genre": "Chaton",
+        "sexeSymbol": "maleSymbol",
+        "logoSexe": "fa-mars",
+        "id": 1
+      }
     ]
   }
