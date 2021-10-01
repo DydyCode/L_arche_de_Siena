@@ -28,6 +28,20 @@
         "sexeSymbol": "femaleSymbol",
         "logoSexe": "fa-venus",
         "id": 2
+      },
+      {
+        "name": "Hope",
+        "age": "15.03.2021",
+        "description": "Je m’appelle Hope, issus du sauvetage du 31.08.21 avec mes frères,sœurs et ma maman. J’ai du mal avec l’humain pour l’instant. Je les connais pas encore trop bien. Mais je vais vite apprendre à aimer leur compagnie avec ma super famille d’accueil. Je suis habitué au chien. Mon œil c'est rien de bien grave, un ulcère qui va se résorber avec une pommade. C’est ça la vie de chat dehors.. Je serais stérilisée, pucée, primo-vaccinée et déparasitée. À bientôt.",
+        "image": "/images/Chats_a_l'adoption/Hope.jpeg",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "sexe": "Mâle",
+        "genre": "Chaton",
+        "sexeSymbol": "maleSymbol",
+        "logoSexe": "fa-mars",
+        "id": 3
       }
     ]
   }
