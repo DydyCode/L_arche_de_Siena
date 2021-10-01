@@ -77,15 +77,29 @@
         "statut": "Réservé",
         "age": "08.08.2021",
         "description": "Moi c’est Skoll, x cane corso, on m’a séparé de maman quand j’avais à peine un mois les gens qui m’ont récupéré se sont séparé de moi parce que oui un chiot c’est des responsabilités et beaucoup d’investissement vu mon âge… Enfin bon j’suis arrivé dans une super famille d’accueil qui prend soin de moi. Je serais pucé, primo vacciné, déparasité. A bientôt..",
-        "image": "/images/Chiens_a_l'adoption/Skoll.jpg",
+        "image": "/images/Chiens_a_l'adoption/Skoll(1).jpg",
         "image2": "",
         "image3": "",
         "image4": "",
         "sexe": "Mâle",
-        "genre": "Chaton",
+        "genre": "Chiot",
         "sexeSymbol": "maleSymbol",
         "logoSexe": "fa-mars",
         "id": 1
+      },
+      {
+        "name": "Hiro",
+        "age": "Environ 3 mois",
+        "description": "Je suis joueur, câlin et foufou. J'aurais besoin de cours d'éducation car j'ai du mal avec l'auto contrôle. (La gestion des émotions et de la frustration). Ses cours d'éducation sont acutellement pris en charge par l'association, un suivi sera effectué par l'association auprès des adoptants. Je suis habitué aux chats (Si ils sont habitués aux chiens car je suis joueur). Je suis stérilisé, pucé, vacciné. À bientôt.",
+        "image": "/images/Chiens_a_l'adoption/Skoll(1).jpg",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "sexe": "Mâle",
+        "genre": "Chiot",
+        "sexeSymbol": "maleSymbol",
+        "logoSexe": "fa-mars",
+        "id": 2
       }
     ]
   }
