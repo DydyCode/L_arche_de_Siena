@@ -1,0 +1,33 @@
+{
+    "cats": [
+      {
+        "name": "Sao",
+        "statut": "Reservé",
+        "age": "04.08.2021",
+        "description": "Je m’appelle Sao, issus du sauvetage du 31.08.21 avec mes frères, sœurs et maman. Je commence à accepté le contact avec l’Homme, c’est chouette parce qu’elles me donnent du paté à la cuillère! Je suis habitué au chien. Je serais stérilisé, pucé, primo vacciné et déparasité. A bientôt.",
+        "image": "./Images/à l'adoption/Chats/Sao.jpeg",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "sexe": "Mâle",
+        "genre": "Chaton",
+        "sexeSymbol": "maleSymbol",
+        "logoSexe": "fa-mars",
+        "id": 1
+      },
+      {
+        "name": "Saya",
+        "age": "02.07.2021",
+        "description": "Je m’appelle Saya soeur de Siwa, j’ai 3 mois. Je suis câline et joueuse mais j’aime être tranquille aussi. J’ai une légère dépilosité sous les yeux sûrement dû au coriza. Mais ça repousse. Je suis déprasitée, je serais stérilisée, pucée et primo vaccinée. A bientôt.",
+        "image": "./Images/à l'adoption/Chats/Saya.jpeg",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "sexe": "Femelle",
+        "genre": "Chaton",
+        "sexeSymbol": "femaleSymbol",
+        "logoSexe": "fa-venus",
+        "id": 2
+      }
+    ]
+  }
