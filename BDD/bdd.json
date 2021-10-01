@@ -101,5 +101,17 @@
         "logoSexe": "fa-mars",
         "id": 2
       }
+    ],
+    "adoptés": [
+      {
+        "name": "Zeus",
+        "description": "Belle et longue vie petit chou",
+        "image": "/images/Adoptants/Zeus .jpg",
+        "sexe": "Mâle",
+        "date": "28.09.21",
+        "sexeSymbol": "maleSymbol",
+        "logoSexe": "fa-mars",
+        "id": 1
+      }
     ]
   }
