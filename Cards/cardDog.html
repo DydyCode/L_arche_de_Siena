@@ -15,8 +15,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a2454d2561.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Nos adoptés</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Lightbox/lightbox.min.css">
+    <script src="../Lightbox/lightbox-plus-jquery.min.js"></script>
+    <title>Fiche</title>
 </head>
 
 <body>
@@ -28,8 +30,8 @@
         </label>
 
         <ul class="menu__box">
-            <li><a class="menu__item" href="index.html">Accueil</a></li>
-            <li><a class="menu__item" href="#">Nos adoptés</a></li>
+            <li><a class="menu__item" href="../index.html">Accueil</a></li>
+            <li><a class="menu__item" href="../Adoptés.html">Nos adoptés</a></li>
             <li><a class="menu__item" href="https://www.leetchi.com/c/sauvetage-rvrz0kdr?utm_source=copylink&utm_medium=social_sharing&fbclid=IwAR2V5pCcGKlYgGEY9VRZ9EZakdz3n0mLYclxVBg41C67vUFFp3W7mGEl4uw">
                 Faire un don
             </a></li>
@@ -37,19 +39,19 @@
     </div>
     <nav>
         <div id="titreNav">
-            <a href="index.html">
+            <a href="../index.html">
                 <span>
                     L'arche de Siena
                 </span>
             </a>
         </div>
         <ul>
-            <a href="index.html">
+            <a href="../index.html">
                 <li>
                     Accueil
                 </li>
             </a>
-            <a href="Adoptés.html">
+            <a href="../Adoptés.html">
                 <li>
                     Nos adoptés
                 </li>
@@ -62,24 +64,14 @@
         </ul>
         </div>
     </nav>
+    <!-- Container -->
+    <main id="containerCardDog">
+            <!-- Code injecté par JS -->
+    </main>
 
-    <div id="containerTitleContainer4">
-        <span class="line"></span>
-        <h2 id="titleContainer4">
-            Nos Adoptés
-        </h2>
-        <span class="line"></span>
-    </div>
-    <div id="containerAdoptants">
-        <!-- Contenu généré par JS -->
-    </div>
-    <div id="containerBtn">
-        <a class="btn" id="btnPrevious" onclick="previous()">Précédent</a>
-        <span id="pageInfo"></span>
-        <a class="btn" onclick="next()">Suivant</a>
-    </div>
-     <!-- Footer -->
-     <footer>
+
+    <!-- Footer -->
+    <footer>
         <div id="reseaux">
             <a href="https://www.facebook.com/Larche-de-siena-112007964421699">
                 <i class="fab fa-facebook"></i>
@@ -97,7 +89,9 @@
             </p>
         </div>
     </footer>
+    <!-- <script src="/index.js"></script> -->
+    <script src="..//Lightbox/lightbox.js"></script>
+    <script src="../JS/cardDog.js"></script>
+</body>
 
-    <script src="JS/adoptés.js"></script>
-    </body>
-    </html>
+</html>

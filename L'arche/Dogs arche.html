@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a2454d2561.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
-    <title>L'arche chats Page 3</title>
+    <title>L'arche chiens</title>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
 
         <ul class="menu__box">
             <li><a class="menu__item" href="../index.html">Acceuil</a></li>
-            <li><a class="menu__item" href="../Adoptés.html">Nos adoptés</a></li>
+            <li><a class="menu__item" href="../Adoptés.html">Nos adoptés</a></li>
             <li><a class="menu__item" href="https://www.leetchi.com/c/sauvetage-rvrz0kdr?utm_source=copylink&utm_medium=social_sharing&fbclid=IwAR2V5pCcGKlYgGEY9VRZ9EZakdz3n0mLYclxVBg41C67vUFFp3W7mGEl4uw">
                 Faire un don
             </a></li>
@@ -37,7 +37,7 @@
     </div>
     <nav>
         <div id="titreNav">
-            <a href="index.html">
+            <a href="../index.html">
                 <span>
                     L'arche de Siena
                 </span>
@@ -49,7 +49,7 @@
                     Accueil
                 </li>
             </a>
-            <a href="../Adoptés.html">
+            <a href="../Adoptés.html">
                 <li>
                     Nos adoptés
                 </li>
@@ -67,50 +67,17 @@
     <div id="containerTitleContainer4">
         <span class="line"></span>
         <h2 id="titleContainer4">
-            L'arche
+            Chiens dans L'arche
         </h2>
         <span class="line"></span>
     </div>
-    <div id="container4">
-        <a href="../Fiche chats/Van.html">
-            <div class="card">
-                <img class="imageCard" src="../images/Chats_a_l'adoption/Van .jpeg" alt="photo de Van">
-                <p class="nameCard">Van</p>
-                <span class="reserved popup">RESERVÉE</span>
-                <div class="descriptionCard">
-                    <p class="infocard">
-                        Chaton, Femelle <i class="fas fa-venus femaleSymbol symbolIndex"></i>
-                    </p>
-                </div>
-            </div>
-        </a>
-        <a href="../Fiche chats/Saphir.html">
-            <div class="card">
-                <img class="imageCard" src="../images/Chats_a_l'adoption/Saphir.jpeg" alt="photo de Saphir">
-                <p class="nameCard">Saphir</p>
-                <span class="reserved popup">RESERVÉ</span>
-                <div class="descriptionCard">
-                    <p class="infocard">
-                        Chaton, Mâle <i class="fas fa-mars maleSymbol symbolIndex"></i>
-                    </p>
-                </div>
-            </div>
-        </a>
-        <a href="../Fiche chats/Otoko.html">
-            <div class="card">
-                <img class="imageCard" src="../images/Chats_a_l'adoption/Otoko.jpg" alt="photo de Saphir">
-                <p class="nameCard">Otoko</p>
-                <span class="reserved popup">RESERVÉ</span>
-                <div class="descriptionCard">
-                    <p class="infocard">
-                        Chaton, Mâle <i class="fas fa-mars maleSymbol symbolIndex"></i>
-                    </p>
-                </div>
-            </div>
-        </a>
+    <div id="containerDogsArche">
+        <!-- Code injecté par JS -->
     </div>
-    <div>
-        <a href="./L'arche chats P2.html" class="btn">Précédent</a>
+    <div id="containerBtn">
+        <a class="btn" id="btnPrevious" onclick="previous()">Précédent</a>
+        <span id="pageInfo"></span>
+        <a class="btn" onclick="next()">Suivant</a>
     </div>
     </div>
 
@@ -136,7 +103,7 @@
     </footer>
 
     <!-- Script -->
-    <script src="index.js"></script>
+    <script src="../JS/Dogs arche.js"></script>
 </body>
 
 </html>
