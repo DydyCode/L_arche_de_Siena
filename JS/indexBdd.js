@@ -3,6 +3,18 @@ let containerDogs = document.getElementById('containerDogs');
 let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bdd.json";
 let request = new XMLHttpRequest();
 
+request.responseType = 'json';
+request.open('GET', requestURL);
+request.responseType = 'text'; // now we're getting a string!
+request.send();
+
+request.onload = function () {
+  var allAnimalsText = request.response; // get the string from the response
+  var allAnimals = JSON.parse(allAnimalsText); // convert it to an object
+  showCats(allAnimals);
+  showDogs(allAnimals);
+  localStorage.setItem("Animals", JSON.stringify(allAnimals));
+}
 
 function showCats(allCats) {
   var cats = allCats['cats'];
@@ -50,11 +62,10 @@ function showCats(allCats) {
         containerCats.appendChild(link);
   }
 }
-function showDogs(allCats) {
-  var dogs = allCats['dogs'];
+function showDogs(allAnimals) {
+  var dogs = allAnimals['dogs'];
 
   for (var i = 0; i < 4; i++) {
-
         let link = document.createElement('a');
         link.setAttribute('href', "./Cards/cardDog.html?id=" + dogs[i].id);
     
@@ -98,16 +109,5 @@ function showDogs(allCats) {
   }
 }
 
-request.responseType = 'json';
-request.open('GET', requestURL);
-request.responseType = 'text'; // now we're getting a string!
-request.send();
 
-request.onload = function () {
-  var allAnimalsText = request.response; // get the string from the response
-  var allAnimals = JSON.parse(allAnimalsText); // convert it to an object
-  showCats(allAnimals);
-  showDogs(allAnimals);
-  localStorage.setItem("Animals", JSON.stringify(allAnimals));
-}
 

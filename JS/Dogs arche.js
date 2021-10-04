@@ -18,7 +18,7 @@ function showDogs() {
             listOfDogs+= 
             `
             <a href="../Cards/cardDog.html?id=${dogs[i].id}">
-              <div class="card">
+              <div class="card cardDog">
                   <img class="imageCard" src="${dogs[i].image}" alt="photo de ${dogs[i].name}">
                   <p class="nameCard">${dogs[i].name}</p>
                   <div class="descriptionCard">
@@ -35,7 +35,7 @@ function showDogs() {
             listOfDogs+= 
             `
             <a href="../Cards/cardDog.html?id=${dogs[i].id}">
-              <div class="card">
+              <div class="card cardDog">
                   <img class="imageCard" src="${dogs[i].image}" alt="photo de ${dogs[i].name}">
                   <p class="nameCard">${dogs[i].name}</p>
                   <div class="descriptionCard">

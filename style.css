@@ -400,7 +400,7 @@ footer a {
     }
 }
 @media (max-width:414px) {
-    .textCat, .containerCat img {
+    .textCat {
         width: 350px!important;
     }
     #container2 {
@@ -726,7 +726,7 @@ section {
 .containerAllImg {
     display:flex;
     flex-direction: row-reverse;
-    margin: auto;
+  
 }
 @media(min-width:1025px) {
     .containerAllImg {
