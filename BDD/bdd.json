@@ -43,20 +43,6 @@
         "id": 3
       },
       {
-        "name": "Freya",
-        "age": "25.07.2021",
-        "description": "Je suis plutôt calme et câline. J’adore me nicher sur toi pour des séances de ronron thérapie intense. Ok chat et enfant en bas âge. Je serais stérilisée, pucée, primo vaccinée et deparasitée. À bientôt.",
-        "image": "/images/Chats_a_l'adoption/Freya.jpeg",
-        "image2": "",
-        "image3": "",
-        "image4": "",
-        "sexe": "Femelle",
-        "genre": "Chaton",
-        "sexeSymbol": "femaleSymbol",
-        "logoSexe": "fa-venus",
-        "id": 4
-      },
-      {
         "name": "Blacky",
         "age": "25.07.2021",
         "description": "Je suis coquin, très joueur et câlin. Je suis habitué aux chats et aux chiens. Je serais stérilisé, pucé, primo-vacciné et déparasité. À bientôt.",
@@ -68,7 +54,22 @@
         "genre": "Chaton",
         "sexeSymbol": "maleSymbol",
         "logoSexe": "fa-mars",
-        "id": 5
+        "id": 4
+      },
+      {
+        "name": "Freya",
+        "age": "25.07.2021",
+        "description": "Je suis plutôt calme et câline. J’adore me nicher sur toi pour des séances de ronron thérapie intense. Ok chat et enfant en bas âge. Je serais stérilisée, pucée, primo vaccinée et deparasitée. À bientôt.",
+        "image": "/images/Chats_a_l'adoption/Freya.jpeg",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "sexe": "Femelle",
+        "genre": "Chaton",
+        "sexeSymbol": "femaleSymbol",
+        "logoSexe": "fa-venus",
+        "id": 5,
+        "statut": "Réservée"
       },
       {
         "name": "Lagertha",
