@@ -3,22 +3,6 @@ const animal_id = urlParams.get('id');
 const container = document.getElementById('containerCardDog');
 let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bdd.json";
 let btnNext = document.getElementById('btnNext');
-let btnPrevious = document.getElementById('btnPrevious');
-
-btnNext.addEventListener('click', (e) => {
-  window.scroll({
-    top: 0,
-    left: 0,
-    behavior: 'smooth'
-  });
-})
-btnPrevious.addEventListener('click', (e) => {
-  window.scroll({
-    top: 0,
-    left: 0,
-    behavior: 'smooth'
-  });
-})
 
 var request = new XMLHttpRequest();
 
