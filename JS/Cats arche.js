@@ -7,15 +7,32 @@ let acutalPage = 1;
 let animals = JSON.parse(localStorage.getItem('Animals'));
 let cats = animals.cats;
 let maxPages = Math.ceil(cats.length / numberOfItems);
+let btnNext = document.getElementById('btnNext');
+let btnPrevious = document.getElementById('btnPrevious');
+
+btnNext.addEventListener('click', (e) => {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+})
+btnPrevious.addEventListener('click', (e) => {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+})
 
 function showCats() {
   let listOfCats = "";
 
   for (var i = first; i < first + numberOfItems; i++) {
-        if (i < cats.length) {       
-          if(cats[i].statut) {
-            listOfCats+= 
-            `
+    if (i < cats.length) {
+      if (cats[i].statut) {
+        listOfCats +=
+          `
             <a href="../Cards/cardCat.html?id=${cats[i].id}">
               <div class="card">
                   <img class="imageCard" src="${cats[i].image}" alt="photo de ${cats[i].name}">
@@ -29,10 +46,10 @@ function showCats() {
               </div>
           </a>
             `
-            containerCats.innerHTML = listOfCats;
-          }else {
-            listOfCats+= 
-            `
+        containerCats.innerHTML = listOfCats;
+      } else {
+        listOfCats +=
+          `
             <a href="../Cards/cardCat.html?id=${cats[i].id}">
               <div class="card">
                   <img class="imageCard" src="${cats[i].image}" alt="photo de ${cats[i].name}">
@@ -45,10 +62,10 @@ function showCats() {
               </div>
           </a>
             `
-            containerCats.innerHTML = listOfCats;
-          }
-          showPageInfo();
-        }
+        containerCats.innerHTML = listOfCats;
+      }
+      showPageInfo();
+    }
 
   }
 }
@@ -67,14 +84,14 @@ request.onload = function () {
 function next() {
   let animals = JSON.parse(localStorage.getItem('Animals'))
   let cats = animals.cats;
-  if(first + numberOfItems <= cats.length) {
+  if (first + numberOfItems <= cats.length) {
     first += numberOfItems;
     acutalPage++;
     showCats();
   }
 }
-function previous() {
-  if(first - numberOfItems >=0) {
+function previous() {
+  if (first - numberOfItems >= 0) {
     first -= numberOfItems;
     acutalPage--;
     showCats();

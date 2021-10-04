@@ -103,7 +103,7 @@ function searchGoodCat() {
             // Création de la balise img //
             let img = document.createElement('img');
             img.setAttribute('src', animals.cats[i].image);
-            img.classList.add('imageCat');
+            img.classList.add('imageCat', 'imgSolo');
             div.appendChild(img);
             }
             // Création div Text //

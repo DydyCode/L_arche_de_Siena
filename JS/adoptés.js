@@ -2,6 +2,23 @@ let containerAdopted = document.getElementById('containerAdoptants');
 let containerDogs = document.getElementById('containerDogs');
 let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bdd.json";
 let request = new XMLHttpRequest();
+let btnNext = document.getElementById('btnNext');
+let btnPrevious = document.getElementById('btnPrevious');
+
+btnNext.addEventListener('click', (e) => {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+})
+btnPrevious.addEventListener('click', (e) => {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+})
 
 let numberOfItems = 8;
 let first = 0;
@@ -9,6 +26,8 @@ let acutalPage = 1;
 let bdd = JSON.parse(localStorage.getItem('Animals'));
 let adopted = bdd.adopted;
 let maxPages = Math.ceil(adopted.length / numberOfItems);
+
+
 
 function showAdopted() {
   let listOfAdopted = "";
