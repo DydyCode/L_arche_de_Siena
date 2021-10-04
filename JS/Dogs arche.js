@@ -6,6 +6,7 @@ let first = 0;
 let acutalPage = 1;
 let animals = JSON.parse(localStorage.getItem('Animals'));
 let dogs = animals.dogs;
+
 let maxPages = Math.ceil(dogs.length / numberOfItems);
 
 function showDogs() {
