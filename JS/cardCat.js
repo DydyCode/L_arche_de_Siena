@@ -16,12 +16,12 @@ request.onload = function () {
     searchGoodCat(allCats);
 }
 
+
 function searchGoodCat() {
     let getCats = localStorage.getItem("Animals");
     let animals = JSON.parse(getCats);
     for (let i = 0; i != animal_id; i++) {
         if (animals.cats[i].id == animal_id) {
-            console.log(animals.cats[i].image2);
             // Création de la div //
             let div = document.createElement('div');
             div.classList.add('containerCat');
@@ -65,37 +65,37 @@ function searchGoodCat() {
                 linkImage2.appendChild(image2);
 
                 div.appendChild(containerCatV2);
-                
+
                 if (animals.cats[i].image3) {
-        
+
                     let linkImage3 = document.createElement('a');
                     linkImage3.classList.add('containerIMG');
                     linkImage3.setAttribute('href', animals.cats[i].image3);
                     linkImage3.setAttribute('data-lightbox', 'galerie');
                     linkImage3.setAttribute('data-title', animals.cats[i].name + ` - L'arche de Siena`);
                     containerImgNoMain.appendChild(linkImage3);
-    
+
                     let image3 = document.createElement('img');
                     image3.setAttribute('src', animals.cats[i].image3);
                     image3.classList.add("imageCat", "imgMain");
                     linkImage3.appendChild(image3);
-    
+
                     div.appendChild(containerCatV2);
                 }
                 if (animals.cats[i].image4) {
-        
+
                     let linkImage4 = document.createElement('a');
                     linkImage4.classList.add('containerIMG');
                     linkImage4.setAttribute('href', animals.cats[i].image4);
                     linkImage4.setAttribute('data-lightbox', 'galerie');
                     linkImage4.setAttribute('data-title', animals.cats[i].name + ` - L'arche de Siena`);
                     containerImgNoMain.appendChild(linkImage4);
-    
+
                     let image4 = document.createElement('img');
                     image4.setAttribute('src', animals.cats[i].image4);
                     image4.classList.add("imageCat", "imgMain");
                     linkImage4.appendChild(image4);
-    
+
                     div.appendChild(containerCatV2);
                 }
 
