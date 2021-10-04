@@ -278,7 +278,9 @@ footer a {
     color: white ;
 }
 
-/***** Cat *****/
+.containerCatV2 {
+    margin: auto;
+}
 
 .containerCat img, .containerCatV2 img{
     width: 500px;

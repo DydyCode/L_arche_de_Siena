@@ -6,6 +6,23 @@ let first = 0;
 let acutalPage = 1;
 let animals = JSON.parse(localStorage.getItem('Animals'));
 let dogs = animals.dogs;
+let btnNext = document.getElementById('btnNext');
+let btnPrevious = document.getElementById('btnPrevious');
+
+btnNext.addEventListener('click', () => {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+})
+btnPrevious.addEventListener('click', () => {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+})
 
 let maxPages = Math.ceil(dogs.length / numberOfItems);
 

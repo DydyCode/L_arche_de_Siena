@@ -85,6 +85,20 @@
         "id": 6
       },
       {
+        "name": "Blacky",
+        "age": "25.07.2021",
+        "description": "Je suis câlin, joueur et calme. Je suis habitué aux chats et aux chiens. Je serais stérilisé, pucé, primo-vacciné et déparasité. À bientôt.",
+        "image": "/images/Chats_a_l'adoption/Blacky (1).JPG",
+        "image2": "/images/Chats_a_l'adoption/Blacky (2).JPG",
+        "image3": "",
+        "image4": "",
+        "sexe": "Mâle",
+        "genre": "Chaton",
+        "sexeSymbol": "maleSymbol",
+        "logoSexe": "fa-mars",
+        "id": 19
+      },
+      {
         "name": "Vic",
         "age": "27.08.2021",
         "description": "Je suis curieuse joueuse et câline. Tu pourra venir me voir à partir du 12/10. Habituée au chat et au chien. Je serais stérilisée, pucée, primo vaccinée et deparasitée. À bientôt.",

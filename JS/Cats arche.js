@@ -10,14 +10,14 @@ let maxPages = Math.ceil(cats.length / numberOfItems);
 let btnNext = document.getElementById('btnNext');
 let btnPrevious = document.getElementById('btnPrevious');
 
-btnNext.addEventListener('click', (e) => {
+btnNext.addEventListener('click', () => {
   window.scroll({
     top: 0,
     left: 0,
     behavior: 'smooth'
   });
 })
-btnPrevious.addEventListener('click', (e) => {
+btnPrevious.addEventListener('click', () => {
   window.scroll({
     top: 0,
     left: 0,
