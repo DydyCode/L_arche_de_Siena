@@ -342,6 +342,24 @@ footer a {
 /***** Responsive *****/
 
 @media (max-width:768px) {
+    #menu-demo2 a{
+        color: black !important;;
+    }
+    #menu-demo2 ul {
+        position: relative!important;
+    }
+     #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+    background: darkgray!important;;
+    }
+    #menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+    background:darkgray!important;
+    }
+    #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+    background:darkgray!important;
+    }
+    #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+    background:darkgray!important;
+    } 
     #hamburger-menu {
         opacity: 1;
         visibility: visible;
@@ -425,9 +443,7 @@ footer a {
     }
     
 }
-@media (min-width:768px) {
-    
-}
+
 
 
 /* The Modal (background) */
@@ -754,3 +770,84 @@ section {
 #pageInfo {
     padding: 10px;
 }
+#menu-demo2, #menu-demo2 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
+    }
+    #menu-demo2 li{
+    display:inline-block;
+    position:relative;
+    /* border-radius:8px 8px 0 0; */
+    }
+    #menu-demo2 ul li{
+    display:inherit;
+    border-radius:0;
+    }
+    #menu-demo2 ul li:hover{
+    border-radius:0;
+    }
+    #menu-demo2 ul li:last-child{
+    border-radius:0 0 8px 8px;
+    }
+    #menu-demo2 ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+    }
+    #menu-demo2 li:hover ul{
+    max-height:15em;
+    }
+    /* background des liens menus */
+    #menu-demo2 li:first-child{
+    background-color: black;
+    }
+    #menu-demo2 li:nth-child(2){
+    background-color: black;
+    }
+    #menu-demo2 li:nth-child(3){
+    background-color: black;
+    } */
+    /* #menu-demo2 li:last-child{
+    background-color: #838383;
+    }
+    /* background des liens menus et sous menus au survol */
+    #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+    background:#ffffff;
+    }
+    #menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+    background:#ffffff;
+    }
+    #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+    background:#ffffff;
+    }
+    #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+    background:#ffffff;
+    } 
+    /* les a href */
+    #menu-demo2 a{
+    text-decoration:none;
+    display:block;
+    color:#fff;
+    }
+    #menu-demo2 ul a{
+    padding:8px 0;
+    }
+    #menu-demo2 li:hover li a{
+    color:#fff;
+    text-transform:inherit;
+    }
+    #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+    color:#000;
+    }
+    #ul {
+        flex-direction: column;
+    }
+
