@@ -177,21 +177,6 @@
         "statut": "Réservée"
       },
       {
-        "name": "Sumol",
-        "age": "23.04.2021",
-        "description": "Je m’appelle Sumol, issus du sauvetage du 31.08.21 avec mes frères, sœurs et maman. Comme vous pouvez le voir j’accepte bien l’humain. J’ai une petite entaille à l’oreille ça me donne un charme de guerrière. Je suis habitué au chien. Je serais stérilisée, pucée, primo-vaccinée et déparasitée. À bientôt.",
-        "image": "/images/Chats_a_l'adoption/Sumol .jpg",
-        "image2": "",
-        "image3": "",
-        "image4": "",
-        "sexe": "Mâle",
-        "genre": "Chaton",
-        "sexeSymbol": "maleSymbol",
-        "logoSexe": "fa-mars",
-        "id": 13,
-        "statut": "Réservé"
-      },
-      {
         "name": "Summer",
         "age": "04.08.2021",
         "description": "Je m’appelle Summer, j’ai 2 mois. Issus du sauvetage du 31.08.21 avec mes frères, sœurs et maman. Comme vous pouvez le voir j’accepte bien l’humain. A vrai dire je n’ai jamais appréhendé leur contact. J’ai une petite entaille à l’oreille ça me donne un charme de guerrière. Je suis habituée au chien. Je serais stérilisée, pucée, primo-vaccinée et déparasitée. À bientôt.",
@@ -300,6 +285,15 @@
       }
     ],
     "adopted": [
+      {
+        "name": "Sumol",
+        "description": "Belle et longue vie petit chou",
+        "image": "/images/Adoptants/Sumol.jpg",
+        "sexe": "Mâle",
+        "date": "11.10.21",
+        "sexeSymbol": "maleSymbol",
+        "logoSexe": "fa-mars"
+      },
       {
         "name": "Zeus",
         "description": "Belle et longue vie petit chou",
