@@ -101,11 +101,16 @@ function searchGoodDog() {
             divText.classList.add('textCat', 'cardDog');
             div.appendChild(divText);
 
+                // container anim //
+                let containerAnim = document.createElement('div');
+                containerAnim.classList.add('containerAnim')
+                divText.appendChild(containerAnim);
+
             // Création Name //
             let name = document.createElement('p');
             name.classList.add("catName", "bold");
             name.textContent = animals.dogs[i].name + " ";
-            divText.appendChild(name);
+            containerAnim.appendChild(name);
 
             // Création sexe logo  //
             let sexeLogo = document.createElement('i');
@@ -115,16 +120,16 @@ function searchGoodDog() {
             if (animals.dogs[i].statut) {
                 // Création statut //
                 let statut = document.createElement('span');
-                statut.classList.add('reserved');
+                statut.classList.add('reservedCard');
                 statut.textContent = animals.dogs[i].statut;
-                divText.appendChild(statut);
+                containerAnim.appendChild(statut);
             }
 
             // Création Age //
             let age = document.createElement('p');
             age.classList.add('catage');
             age.textContent = animals.dogs[i].age;
-            divText.appendChild(age);
+            containerAnim.appendChild(age);
 
             // Création Description //
             let description = document.createElement('p')

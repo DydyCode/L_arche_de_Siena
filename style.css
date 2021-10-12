@@ -342,6 +342,12 @@ footer a {
 /***** Responsive *****/
 
 @media (max-width:768px) {
+    #titleContainer4 {
+        font-size: 35px;
+    }
+    #menu-demo2, #menu-demo ul {
+        margin-left: 8px;
+    }
     #menu-demo2 a{
         color: black !important;;
     }
@@ -360,6 +366,15 @@ footer a {
     #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
     background:darkgray!important;
     } 
+    #menu-demo2 li:first-child{
+        background-color: darkgray!important;
+        }
+        #menu-demo2 li:nth-child(2){
+        background-color: darkgray!important;
+        }
+        #menu-demo2 li:nth-child(3){
+        background-color: darkgray!important;
+        }
     #hamburger-menu {
         opacity: 1;
         visibility: visible;
@@ -402,10 +417,10 @@ footer a {
     #container1 h1 {
         font-size: 27px;
     }
-    ul {
+    /* ul {
         margin-left: 4rem;
 
-    }
+    } */
     .card {
         height: 480px;
     }
@@ -625,26 +640,13 @@ footer a {
 
 .popup {
     text-transform: uppercase;
-    animation: popup 5s infinite;
+    animation: zoomBtn 3s ease infinite;
     position: absolute;
     position: absolute;
     top: 15px;
     right: 10px;
 }
-@keyframes popup {
-    0% {
-        opacity: 0;
-        /* transform: scale(60%); */
-        width: 0px;
-    }
-    7%{
-        opacity: 0;
-    }
-    100% {
-        /* transform: scale(100%); */
-        width: 270px;
-    }
-}
+
 .reseauxActu {
     color: rgb(66, 66, 170);
     font-size: 35px;
@@ -772,9 +774,10 @@ section {
 }
 #menu-demo2, #menu-demo2 ul{
     padding:0;
-    margin:0;
     list-style:none;
     text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
     }
     #menu-demo2 li{
     display:inline-block;
@@ -814,7 +817,7 @@ section {
     }
     #menu-demo2 li:nth-child(3){
     background-color: black;
-    } */
+    } 
     /* #menu-demo2 li:last-child{
     background-color: #838383;
     }
@@ -850,4 +853,113 @@ section {
     #ul {
         flex-direction: column;
     }
+    .race {
+        color: #F39C12;
+    }
+
+    @keyframes appearCardLeft {
+        0% {
+            position: relative;
+            left: -600px;
+        }
+        100% {
+            position: relative;
+            left: 0px;
+        }
+    }
+
+    .imageCat {
+        animation: appearCardLeft 2s ease;
+    }
+
+    .textCat {
+        animation: appearCardRight 2s ease;
+    }
+    @keyframes appearCardRight {
+        0% {
+            position: relative;
+            right: -900px;
+        }
+        100% {
+            position: relative;
+            right: 0px;
+        }
+    }
+.textCat {
+    text-overflow: hidden;
+    overflow: hidden;
+}
+.descriptionCat {
+    animation: textBottom 2s ease-in-out;
+}
+
+@keyframes textBottom {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        position: relative;
+        bottom: -400px;
+    }
+    70% {
+        opacity: 0;
+        visibility: hidden;
+        position: relative;
+        bottom: -400px;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+        position: relative;
+        bottom: 0px;
+    }
+}
+
+.containerAnim{
+    animation: textTop 2s ease-in-out;
+}
+
+@keyframes textTop {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        position: relative;
+        top: -200px;
+    }
+    70% {
+        opacity: 0;
+        visibility: hidden;
+        position: relative;
+        top: -200px;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+        position: relative;
+        top: 0px;
+    }
+}
+.reservedCard {
+    text-transform: uppercase;
+    background-color: rgb(214 81 81);
+    font-family: 'Quicksand'!important;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    animation: zoomBtn 3s ease infinite;
+}
+@keyframes zoomBtn {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+    
+}
 

@@ -111,11 +111,16 @@ function searchGoodCat() {
             divText.classList.add('textCat');
             div.appendChild(divText);
 
+            // container anim //
+            let containerAnim = document.createElement('div');
+            containerAnim.classList.add('containerAnim')
+            divText.appendChild(containerAnim);
+
             // Création Name //
             let name = document.createElement('p');
             name.classList.add("catName", "bold");
             name.textContent = animals.cats[i].name + " ";
-            divText.appendChild(name);
+            containerAnim.appendChild(name);
 
             // Création sexe logo  //
             let sexeLogo = document.createElement('i');
@@ -123,18 +128,27 @@ function searchGoodCat() {
             name.appendChild(sexeLogo);
 
             if (animals.cats[i].statut) {
+
                 // Création statut //
                 let statut = document.createElement('span');
-                statut.classList.add('reserved');
+                statut.classList.add('reservedCard');
                 statut.textContent = animals.cats[i].statut;
-                divText.appendChild(statut);
+                containerAnim.appendChild(statut);
+            }
+
+            // Création race //
+            if (animals.cats[i].race) {
+                let race = document.createElement('span');
+                race.classList.add('race');
+                race.textContent = animals.cats[i].race;
+                divText.appendChild(race);
             }
 
             // Création Age //
             let age = document.createElement('p');
             age.classList.add('catage');
             age.textContent = animals.cats[i].age;
-            divText.appendChild(age);
+            containerAnim.appendChild(age);
 
             // Création Description //
             let description = document.createElement('p')
@@ -153,7 +167,7 @@ function searchGoodCat() {
             <span class="bold fontStyle">${animals.cats[i].name}</span> vous intéresse ?
             </p>
             <br>
-            <a href="../Conditions/Conditions_adoption.html" class="btn btnresa"> Lire les conditions d'adoption</a>
+            <a href="../Conditions/Conditions_adoption.html" class=" btn btnresa">Lire les conditions d'adoption</a>
             `
             description.appendChild(p);
             }
