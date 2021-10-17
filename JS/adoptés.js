@@ -1,6 +1,6 @@
 let containerAdopted = document.getElementById('containerAdoptants');
 let containerDogs = document.getElementById('containerDogs');
-let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bdd.json";
+let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bddTest.json";
 let request = new XMLHttpRequest();
 let btnNext = document.getElementById('btnNext');
 let btnPrevious = document.getElementById('btnPrevious');

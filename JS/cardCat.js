@@ -1,7 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const animal_id = urlParams.get('id');
 const container = document.getElementById('containerCardCat');
-let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bdd.json";
+let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bddTest.json";
 
 var request = new XMLHttpRequest();
 
@@ -38,7 +38,7 @@ function searchGoodCat() {
 
                 let linkMain = document.createElement('a');
                 linkMain.classList.add('containerImgMain');
-                linkMain.setAttribute('href', animals.cats[i].image);
+                linkMain.setAttribute('href', animals.cats[i].imageFull);
                 linkMain.setAttribute('data-lightbox', 'galerie');
                 linkMain.setAttribute('data-title', animals.cats[i].name + ` - L'arche de Siena`);
                 containerAllImg.appendChild(linkMain);
@@ -54,7 +54,7 @@ function searchGoodCat() {
 
                 let linkImage2 = document.createElement('a');
                 linkImage2.classList.add('containerIMG');
-                linkImage2.setAttribute('href', animals.cats[i].image2);
+                linkImage2.setAttribute('href', animals.cats[i].image2Full);
                 linkImage2.setAttribute('data-lightbox', 'galerie');
                 linkImage2.setAttribute('data-title', animals.cats[i].name + ` - L'arche de Siena`);
                 containerImgNoMain.appendChild(linkImage2);
@@ -70,7 +70,7 @@ function searchGoodCat() {
 
                     let linkImage3 = document.createElement('a');
                     linkImage3.classList.add('containerIMG');
-                    linkImage3.setAttribute('href', animals.cats[i].image3);
+                    linkImage3.setAttribute('href', animals.cats[i].image3Full);
                     linkImage3.setAttribute('data-lightbox', 'galerie');
                     linkImage3.setAttribute('data-title', animals.cats[i].name + ` - L'arche de Siena`);
                     containerImgNoMain.appendChild(linkImage3);
@@ -86,7 +86,7 @@ function searchGoodCat() {
 
                     let linkImage4 = document.createElement('a');
                     linkImage4.classList.add('containerIMG');
-                    linkImage4.setAttribute('href', animals.cats[i].image4);
+                    linkImage4.setAttribute('href', animals.cats[i].image4Full);
                     linkImage4.setAttribute('data-lightbox', 'galerie');
                     linkImage4.setAttribute('data-title', animals.cats[i].name + ` - L'arche de Siena`);
                     containerImgNoMain.appendChild(linkImage4);

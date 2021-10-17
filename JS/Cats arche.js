@@ -1,5 +1,5 @@
 let containerCats = document.getElementById('containerCatsArche');
-let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bdd.json";
+let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bddTest.json";
 let request = new XMLHttpRequest();
 let numberOfItems = 8;
 let first = 0;
