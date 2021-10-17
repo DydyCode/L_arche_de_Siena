@@ -54,15 +54,16 @@
         "genre": "Chaton",
         "sexeSymbol": "maleSymbol",
         "logoSexe": "fa-mars",
-        "id": 4
+        "id": 4,
+        "statut": "Réservée"
       },
       {
         "name": "Sao",
         "age": "04.08.2021",
-        "description": "Je m’appelle Sao, issus du sauvetage du 31.08.21 avec mes frères, sœurs et maman. Je commence à accepté le contact avec l’Homme, c’est chouette parce qu’elles me donnent du paté à la cuillère! Je suis habitué au chien. Je serais stérilisé, pucé, primo vacciné et déparasité. A bientôt.",
-        "image": "/images/Chats_a_l'adoption/Sao.jpeg",
-        "image2": "",
-        "image3": "",
+        "description": "Je suis câlin et calme. Je suis habitué aux chats et aux enfants. Je serais stérilisé, pucé, primo-vacciné et déparasité. À bientôt.",
+        "image": "/images/Chats_a_l'adoption/Sao(main).JPG",
+        "image2": "/images/Chats_a_l'adoption/Sao(1).JPG",
+        "image3": "/images/Chats_a_l'adoption/Sao(2).JPG",
         "image4": "",
         "sexe": "Mâle",
         "genre": "Chaton",
