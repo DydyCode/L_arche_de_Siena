@@ -1,62 +1,6 @@
 {
     "cats": [
       {
-        "name": "Salem",
-        "age": "04.07.2021",
-        "description": "Je suis gourmande, joueuse et câline quand je veux. Je suis habituée aux chats. Je serais stérilisée, pucée, primo-vaccinée et déparasitée. À bientôt.",
-        "image": "/images/Chats_a_l'adoption/salem(main).JPG",
-        "image2": "/images/Chats_a_l'adoption/salem(1).JPG",
-        "image3": "/images/Chats_a_l'adoption/salem(2).JPG",
-        "image4": "",
-        "sexe": "Femelle",
-        "genre": "Chaton",
-        "sexeSymbol": "femaleSymbol",
-        "logoSexe": "fa-venus",
-        "id": 1
-      },
-      {
-        "name": "Saya",
-        "age": "02.07.2021",
-        "description": "Je m’appelle Saya soeur de Siwa, j’ai 3 mois. Je suis câline et joueuse mais j’aime être tranquille aussi. J’ai une légère dépilosité sous les yeux sûrement dû au coriza. Mais ça repousse. Je suis déprasitée, je serais stérilisée, pucée et primo vaccinée. A bientôt.",
-        "image": "/images/Chats_a_l'adoption/Saya.jpeg",
-        "image2": "",
-        "image3": "",
-        "image4": "",
-        "sexe": "Femelle",
-        "genre": "Chaton",
-        "sexeSymbol": "femaleSymbol",
-        "logoSexe": "fa-venus",
-        "id": 2
-      },
-      {
-        "name": "Hope",
-        "age": "28.06.2021",
-        "description": "J’suis un chat réservé aux premiers abords. Joueur, indépendant et gourmand. Je suis habitué aux chiens et aux chats. Je serais stérilisé, pucé, primo-vacciné et déparasité. À bientôt.",
-        "image": "/images/Chats_a_l'adoption/Hope.jpeg",
-        "image2": "",
-        "image3": "",
-        "image4": "",
-        "sexe": "Mâle",
-        "genre": "Chaton",
-        "sexeSymbol": "maleSymbol",
-        "logoSexe": "fa-mars",
-        "id": 3
-      },
-      {
-        "name": "Sao",
-        "age": "04.08.2021",
-        "description": "Je suis câlin et calme. Je suis habitué aux chats et aux enfants. Je serais stérilisé, pucé, primo-vacciné et déparasité. À bientôt.",
-        "image": "/images/Chats_a_l'adoption/sao(main).JPG",
-        "image2": "/images/Chats_a_l'adoption/sao(1).JPG",
-        "image3": "/images/Chats_a_l'adoption/sao(2).JPG",
-        "image4": "",
-        "sexe": "Mâle",
-        "genre": "Chaton",
-        "sexeSymbol": "maleSymbol",
-        "logoSexe": "fa-mars",
-        "id": 4
-      },
-      {
         "name": "Sherkan",
         "age": "08.09.2021",
         "description": "Je suis discret, gourmand et câlin. Je suis habitué aux chats et aux enfants. Je serais stérilisé, pucé, primo vacciné et deparasité. À bientôt.",
@@ -68,7 +12,7 @@
         "genre": "Chaton",
         "sexeSymbol": "maleSymbol",
         "logoSexe": "fa-mars",
-        "id": 5
+        "id": 1
       },
       {
         "name": "Pichu",
@@ -82,7 +26,67 @@
         "genre": "Chaton",
         "sexeSymbol": "maleSymbol",
         "logoSexe": "fa-mars",
-        "id": 6
+        "id": 2
+      },
+      {
+        "name": "Salem",
+        "age": "04.07.2021",
+        "description": "Je suis gourmande, joueuse et câline quand je veux. Je suis habituée aux chats. Je serais stérilisée, pucée, primo-vaccinée et déparasitée. À bientôt.",
+        "image": "/images/Chats_a_l'adoption/salem(main).JPG",
+        "image2": "/images/Chats_a_l'adoption/salem(1).JPG",
+        "image3": "/images/Chats_a_l'adoption/salem(2).JPG",
+        "image4": "",
+        "sexe": "Femelle",
+        "genre": "Chaton",
+        "sexeSymbol": "femaleSymbol",
+        "logoSexe": "fa-venus",
+        "id": 3,
+        "statut": "Réservée"
+      },
+      {
+        "name": "Saya",
+        "age": "02.07.2021",
+        "description": "Je m’appelle Saya soeur de Siwa, j’ai 3 mois. Je suis câline et joueuse mais j’aime être tranquille aussi. J’ai une légère dépilosité sous les yeux sûrement dû au coriza. Mais ça repousse. Je suis déprasitée, je serais stérilisée, pucée et primo vaccinée. A bientôt.",
+        "image": "/images/Chats_a_l'adoption/Saya.jpeg",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "sexe": "Femelle",
+        "genre": "Chaton",
+        "sexeSymbol": "femaleSymbol",
+        "logoSexe": "fa-venus",
+        "id": 4,
+        "statut": "Réservée"
+      },
+      {
+        "name": "Hope",
+        "age": "28.06.2021",
+        "description": "J’suis un chat réservé aux premiers abords. Joueur, indépendant et gourmand. Je suis habitué aux chiens et aux chats. Je serais stérilisé, pucé, primo-vacciné et déparasité. À bientôt.",
+        "image": "/images/Chats_a_l'adoption/Hope.jpeg",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "sexe": "Mâle",
+        "genre": "Chaton",
+        "sexeSymbol": "maleSymbol",
+        "logoSexe": "fa-mars",
+        "id": 5,
+        "statut": "Réservé"
+      },
+      {
+        "name": "Sao",
+        "age": "04.08.2021",
+        "description": "Je suis câlin et calme. Je suis habitué aux chats et aux enfants. Je serais stérilisé, pucé, primo-vacciné et déparasité. À bientôt.",
+        "image": "/images/Chats_a_l'adoption/sao(main).JPG",
+        "image2": "/images/Chats_a_l'adoption/sao(1).JPG",
+        "image3": "/images/Chats_a_l'adoption/sao(2).JPG",
+        "image4": "",
+        "sexe": "Mâle",
+        "genre": "Chaton",
+        "sexeSymbol": "maleSymbol",
+        "logoSexe": "fa-mars",
+        "id": 6,
+        "statut":"Réservé"
       },
       {
         "name": "Split",
