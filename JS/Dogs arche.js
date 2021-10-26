@@ -1,11 +1,31 @@
 let containerDogs = document.getElementById('containerDogsArche');
-let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bddTest.json";
-let request = new XMLHttpRequest();
+
+
+
+
+const url = "https://larchedesiena.herokuapp.com";
+let dogs = [];
+
+getDogs();
+
+function getDogs() {
+  fetch(`${url}/dogs`)
+  .then(data => data.json())
+  .then(res => {
+    dogs = res;
+    maxPages = Math.ceil(dogs.length / numberOfItems);
+    showDogs();
+  })
+  .catch(err => {
+    console.log(err)
+  });
+}
+
 let numberOfItems = 8;
 let first = 0;
 let acutalPage = 1;
-let animals = JSON.parse(localStorage.getItem('Animals'));
-let dogs = animals.dogs;
+let maxPages;
+
 let btnNext = document.getElementById('btnNext');
 let btnPrevious = document.getElementById('btnPrevious');
 
@@ -24,7 +44,7 @@ btnPrevious.addEventListener('click', () => {
   });
 })
 
-let maxPages = Math.ceil(dogs.length / numberOfItems);
+
 
 function showDogs() {
   let listOfDogs = "";
@@ -36,8 +56,8 @@ function showDogs() {
             `
             <a href="../Cards/cardDog.html?id=${dogs[i].id}">
               <div class="card cardDog">
-                  <img class="imageCard" src="${dogs[i].image}" alt="photo de ${dogs[i].name}">
-                  <p class="nameCard">${dogs[i].name}</p>
+                  <img class="imageCard" src="${url + dogs[i].image[0].url}" alt="photo de ${dogs[i].nom}">
+                  <p class="nameCard">${dogs[i].nom}</p>
                   <div class="descriptionCard">
                   <span class="reserved popup">${dogs[i].statut}</span>
                       <p class="infocard">
@@ -53,8 +73,8 @@ function showDogs() {
             `
             <a href="../Cards/cardDog.html?id=${dogs[i].id}">
               <div class="card cardDog">
-                  <img class="imageCard" src="${dogs[i].image}" alt="photo de ${dogs[i].name}">
-                  <p class="nameCard">${dogs[i].name}</p>
+                  <img class="imageCard" src="${url + dogs[i].image[0].url}" alt="photo de ${dogs[i].nom}">
+                  <p class="nameCard">${dogs[i].nom}</p>
                   <div class="descriptionCard">
                       <p class="infocard">
                           ${dogs[i].genre}, ${dogs[i].sexe} <i class="fas ${dogs[i].sexeSymbol} ${dogs[i].logoSexe} symbolIndex"></i>
@@ -72,21 +92,7 @@ function showDogs() {
 }
 
 
-request.responseType = 'json';
-request.open('GET', requestURL);
-request.responseType = 'text'; // now we're getting a string!
-request.send();
-
-request.onload = function () {
-  var allAnimalsText = request.response; // get the string from the response
-  var allAnimals = JSON.parse(allAnimalsText); // convert it to an object
-  showDogs(allAnimals);
-  localStorage.setItem("Animals", JSON.stringify(allAnimals));
-}
-
 function next() {
-  let animals = JSON.parse(localStorage.getItem('Animals'))
-  let dogs = animals.dogs;
   if(first + numberOfItems <= dogs.length) {
     first += numberOfItems;
     acutalPage++;

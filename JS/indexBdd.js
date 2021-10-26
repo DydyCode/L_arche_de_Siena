@@ -1,30 +1,39 @@
 let containerCats = document.getElementById('containerCats');
 let containerDogs = document.getElementById('containerDogs');
-let requestURL = "https://dydycode.github.io/L_arche_de_Siena/BDD/bddTest.json";
-let request = new XMLHttpRequest();
+const url = "https://larchedesiena.herokuapp.com";
+let cats = [];
+let dogs = [];
 
+getCats();
+getDogs();
 
-request.responseType = 'json';
-request.open('GET', requestURL);
-request.responseType = 'text'; // now we're getting a string!
-request.send();
-
-request.onload = function () {
-  var allAnimalsText = request.response; // get the string from the response
-  var allAnimals = JSON.parse(allAnimalsText); // convert it to an object
-  localStorage.setItem("Animals", JSON.stringify(allAnimals));
-  
+function getCats() {
+  fetch(`${url}/cats`)
+  .then(data => data.json())
+  .then(res => {
+    cats = res;
+    showCats();
+  })
+  .catch(err => {
+    console.log(err)
+  });
 }
-showCats();
-showDogs();
 
-
+function getDogs() {
+  fetch(`${url}/dogs`)
+  .then(data => data.json())
+  .then(res => {
+    dogs = res;
+    showDogs();
+  })
+  .catch( err => {
+    console.log(err);
+  })
+}
 
 function showCats() {
-  let animals = JSON.parse(localStorage.getItem('Animals'));
-  var cats = animals['cats'];
-
   for (var i = 0; i < 4; i++) {
+
 
         let link = document.createElement('a');
         link.setAttribute('href', "./Cards/cardCat.html?id=" + cats[i].id);
@@ -33,12 +42,12 @@ function showCats() {
         card.classList.add('card');
     
         let img = document.createElement('img');
-        img.setAttribute('src', cats[i].image);
+        img.setAttribute('src', url + cats[i].image[i].url );
         img.classList.add("imageCard");
     
         let name = document.createElement('p');
         name.classList.add('nameCard');
-        name.textContent = cats[i].name;
+        name.textContent = cats[i].nom;
     
         if (cats[i].statut) {
           let statut = document.createElement('span');
@@ -70,9 +79,6 @@ function showCats() {
 }
 
 function showDogs() {
-  let animals = JSON.parse(localStorage.getItem('Animals'));
-  var dogs = animals['dogs'];
-
   for (var i = 0; i < dogs.length; i++) {
 
         let link = document.createElement('a');
@@ -82,7 +88,7 @@ function showDogs() {
         card.classList.add('card','cardDog');
     
         let img = document.createElement('img');
-        img.setAttribute('src', dogs[i].image);
+        img.setAttribute('src', url + dogs[i].image[i].url );
         img.classList.add("imageCard");
     
         let name = document.createElement('p');
